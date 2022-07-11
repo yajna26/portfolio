@@ -9,8 +9,8 @@ const Home = () => {
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
             <div className='flex flex-col justify-center h-full'>
                 <h2 className='text-4xl sm:text-7xl font-bold text-white'>I am a web developer.</h2>
-                <p className='text-gray-500 py-4 max-w-md'>I have 1 year of experience as a developer. I love working on web applications using techologies like react, vue, tailwind and so on.  I graduated from SUPINFO International Univerisity in 2020. I am a web developer from Mauritius.
-                <br/><br/>Pasionate about front end developement. This is where I share my experiments and experience.</p>
+                <p className='text-gray-500 py-4 max-w-md'>I am Yajna Matabudul, a front-end web developer, with one year experience. I graduated SUPINFO International University, with a Bsc Computer science in 2020. My aptness in applications like React, Vue, Tailwind, allows me to share my passion of web-development.
+                <br/><br/>This is where I share my experience.</p>
                 <div>
                     <Link to = "project" smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
                         Projects
