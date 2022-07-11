@@ -8,22 +8,30 @@ const Project = () => {
     const projects = [
         {
             id: 1,
-            src: Portfolio
+            src: Portfolio,
+            demolink:"https://yajnamatabudul.netlify.app/",
+            codelink:"https://github.com/yajna26/portfolio"
 
         },
         {
             id: 2,
-            src: CssLayout
+            src: CssLayout,
+            demolink:"https://yajna26.github.io/CSS-Layout/",
+            codelink:"https://github.com/yajna26/CSS-Layout"
 
         },
         {
             id: 3,
-            src: GymPage
+            src: GymPage,
+            demolink:"https://yajna26.github.io/Gym-homepage/",
+            codelink:"https://github.com/yajna26/Gym-homepage"
 
         },
         {
             id: 4,
-            src: LandingPage
+            src: LandingPage,
+            demolink:"https://yajna26.github.io/matafaka-landing-page/",
+            codelink:"https://github.com/yajna26/matafaka-landing-page"
 
         }
     ]
@@ -38,12 +46,16 @@ const Project = () => {
 
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
                     {
-                        projects.map(({ id, src }) => (
+                        projects.map(({ id, src, demolink, codelink }) => (
                             <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
                                 <img src={src} alt='' className='rounded-md duration-200 hover:scale-105' />
                                 <div className='flex items-center justify-center'>
-                                    <button className='w-1/2 px-6 py-3 duration-200 hover:scale-105'>Demo</button>
-                                    <button className='w-1/2 px-6 py-3 duration-200 hover:scale-105'>Code</button>
+                                    <a href={demolink} target='_blank'>
+                                        <button className='w-1/2 px-6 py-3 duration-200 hover:scale-105'>Demo</button>
+                                    </a>
+                                    <a href={codelink} target='_blank'>
+                                        <button className='w-1/2 px-6 py-3 duration-200 hover:scale-105'>Code</button>
+                                    </a>
                                 </div>
                             </div>
                         ))
