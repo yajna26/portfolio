@@ -3,6 +3,7 @@ import CssLayout from '../Assets/Project/CssLayout.PNG';
 import GymPage from '../Assets/Project/GymPage.PNG';
 import LandingPage from '../Assets/Project/LandingPage.PNG';
 import Portfolio from '../Assets/Project/Portfolio.PNG';
+import WebApp from '../Assets/Project/WeatherApp.PNG';
 
 const Project = () => {
     const projects = [
@@ -15,20 +16,27 @@ const Project = () => {
         },
         {
             id: 2,
+            src: WebApp,
+            demolink:"https://weatherappyajna.netlify.app",
+            codelink:"https://github.com/yajna26/weather_app"
+
+        },
+        {
+            id: 3,
             src: CssLayout,
             demolink:"https://yajna26.github.io/CSS-Layout/",
             codelink:"https://github.com/yajna26/CSS-Layout"
 
         },
         {
-            id: 3,
+            id: 4,
             src: GymPage,
             demolink:"https://yajna26.github.io/Gym-homepage/",
             codelink:"https://github.com/yajna26/Gym-homepage"
 
         },
         {
-            id: 4,
+            id: 5,
             src: LandingPage,
             demolink:"https://yajna26.github.io/matafaka-landing-page/",
             codelink:"https://github.com/yajna26/matafaka-landing-page"
